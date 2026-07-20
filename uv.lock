@@ -477,6 +477,7 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "black" },
+    { name = "certifi" },
     { name = "fastapi" },
     { name = "isort" },
     { name = "langchain" },
@@ -485,6 +486,7 @@ dependencies = [
     { name = "langchain-openai" },
     { name = "langchain-pinecone" },
     { name = "langchain-tavily" },
+    { name = "langsmith" },
     { name = "python-dotenv" },
     { name = "streamlit" },
     { name = "streamlit-chat" },
@@ -494,6 +496,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "black", specifier = ">=26.5.1" },
+    { name = "certifi", specifier = ">=2026.6.17" },
     { name = "fastapi", specifier = ">=0.139.0" },
     { name = "isort", specifier = ">=8.0.1" },
     { name = "langchain", specifier = ">=1.3.11" },
@@ -502,6 +505,7 @@ requires-dist = [
     { name = "langchain-openai", specifier = ">=1.3.3" },
     { name = "langchain-pinecone", specifier = ">=0.2.13" },
     { name = "langchain-tavily", specifier = ">=0.2.18" },
+    { name = "langsmith", specifier = ">=0.9.6" },
     { name = "python-dotenv", specifier = ">=1.2.2" },
     { name = "streamlit", specifier = ">=1.58.0" },
     { name = "streamlit-chat", specifier = ">=0.1.1" },
